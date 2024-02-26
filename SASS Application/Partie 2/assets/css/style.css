@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px;
+  margin: 0px;
+}
+
+/************************************** HEADER ********************************/
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: lightgrey;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header div {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.header img {
+    height: 100%;
+    width: 100%;
+}
+.right-icon {
+    float: right;
+}
+.left-icon, .left-text {
+    float: left;
+}
+.left-text {
+    width: auto;
+    font-family: sans-serif;
+    font-size: 1.9rem;
+}
+
+/******************************** FOOTER **************************************/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.25em;
+}
+
+/********************************* MAIN ***************************************/
+.main {
+    margin-top: 3.75em;
+    margin-bottom: 3.75em;
+}
+
